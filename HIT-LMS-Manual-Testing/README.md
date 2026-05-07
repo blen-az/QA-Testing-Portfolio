@@ -1,73 +1,105 @@
-# HIT LMS – Manual Testing Report
+HIT LMS – Manual QA Testing Report
+👤 Candidate
 
-**Candidate:** Blen Asaye  
-**Role:** Manual QA Tester  
-**Date:** Feb 10, 2026  
-**Project Type:** Manual Testing Assessment  
+Name: Blen Asaye
+Role: Manual QA Tester
+Project Type: Manual Testing (Staging Environment)
+Date: Feb 2026
 
-## 1. Project Overview
+📌 Project Overview
 
-This project contains a manual testing report for the HIT Learning Management System (LMS) staging environment.
+This project contains a Manual QA testing report for the HIT Learning Management System (LMS) staging environment.
 
-The testing focused on validating core platform features including:
-- User Registration
-- Login & Authentication
-- Course Browsing
-- Course Enrollment
-- Instructor Course Management
-- Mobile Responsiveness
-- Negative Test Cases
-- Basic Security Checks
+The goal of this testing was to evaluate the stability, usability, and functionality of the platform’s core features through real user workflows.
 
-The goal was to ensure the platform behaves correctly under normal user workflows, edge cases, and UI interactions.
+Testing focused on:
 
-Some features such as course completion and certificate generation could not be fully validated because the staging environment contained placeholder content.
+User registration & authentication
+Instructor registration & management
+Course browsing & enrollment
+UI/UX responsiveness
+Negative test scenarios
+Basic security validation
+🧪 Test Summary
+Total Test Cases Executed: (add number)
+Bugs Identified: (add number)
+Critical Issues: (if any)
+High Severity Issues: (if any)
+Medium/Low Issues: (if any)
+🎯 Testing Scope
+✔️ Tested Areas
+Learner registration & login flow
+Instructor registration and course management
+Course discovery and enrollment process
+UI responsiveness across devices
+Input validation and error handling
+Basic access control and security behavior
+❌ Limitations
 
-## 2. Testing Scope
+Some features could not be fully validated due to staging environment limitations:
 
-End-to-end manual testing was performed using realistic user workflows.
+Course completion functionality
+Progress tracking
+Certificate generation (placeholder data)
+🧪 Testing Environment
+💻 Desktop Testing
+Device: Laptop
+Browser: Google Chrome
+📱 Mobile Testing
+Device: iPhone
+Browser: Safari
+🌐 Test Environment
+Environment: HIT LMS Staging
+Base URL: https://hit-lms-frontend-production-ncfb4.ondigitalocean.app
+Instructor Registration: /instructor/register
+Test OTP: 123456
+🐞 Key Issues Identified
+🔴 High Severity
+(Add your real critical bugs here)
+🟠 Medium Severity
+(Add UI / functional issues)
+🟡 Low Severity
+(Add minor UI issues like alignment, spacing, icons)
+📂 Test Artifacts
 
-The following areas were tested:
-- Learner registration and authentication
-- Instructor registration and course management
-- Course discovery and enrollment
-- UI and responsiveness on mobile devices
-- Error handling and validation
-- Security access controls
+This repository includes the following QA documentation:
 
-Features that could not be validated:
-- Course completion
-- Progress tracking
-- Certificate generation
+📄 Test Plan
 
-These features were blocked due to placeholder data in the staging environment.
+Defines scope, strategy, and testing approach for the application.
 
-## 3. Testing Environment
+📄 Test Cases
 
-### Functional Testing
-- **Device:** Laptop
-- **Browser:** Google Chrome
+Structured functional, UI, and edge-case test scenarios.
 
-### Mobile Testing
-- **Device:** iPhone
-- **Browser:** Safari
+📄 Bug Reports
 
-### Test Environment
-- **Environment:** HIT LMS Staging
-- **Base URL:** [https://hit-lms-frontend-production-ncfb4.ondigitalocean.app](https://hit-lms-frontend-production-ncfb4.ondigitalocean.app)
-- **Instructor Registration URL:** [https://hit-lms-frontend-production-ncfb4.ondigitalocean.app/instructor/register](https://hit-lms-frontend-production-ncfb4.ondigitalocean.app/instructor/register)
-- **Test OTP Code:** 123456
+Detailed defect reports with:
 
-## 4. Test Artifacts
+Steps to reproduce
+Expected vs actual results
+Severity classification
+Screenshots (if applicable)
+📄 Test Results
 
-For detailed test coverage and defect tracking, please refer to the following artifacts in this repository:
+Summary of execution results and observations.
 
-- **[Test-Cases.md](./Test-Cases.md)**: Comprehensive suite of functional, UI, and edge-case test cases organized by module.
-- **[Bug-Reports.md](./Bug-Reports.md)**: Detailed defect descriptions, severity/priority mappings, and steps to reproduce.
-- **[Screenshots](./Screenshots/)**: Visual evidence of discovered issues and test evidence.
+📊 Conclusion
 
-## 5. Conclusion
+The HIT LMS platform demonstrates stable performance in core workflows such as registration, login, course browsing, enrollment, and instructor management.
 
-The HIT LMS platform demonstrates stable core functionality for registration, login, course browsing, enrollment, and instructor management.
+However, several usability and UI-related issues were identified, and certain features could not be validated due to incomplete staging data.
 
-However, several features remain untestable in the staging environment due to placeholder content, including course completion and UI edge cases representing missing data. Given the "Open" bugs regarding UX flow and duplicate icons, minor refinement will improve the overall platform presentation.
+Overall, the system is functional but would benefit from improvements in UI consistency, error handling, and completion flow validation before production release.
+
+💡 Skills Demonstrated
+Manual Testing
+Test Case Design
+Bug Reporting
+Functional Testing
+UI/UX Testing
+Regression Testing
+QA Documentation
+📌 Notes
+
+This project was performed as a structured manual QA exercise to simulate real-world application testing in a staging environment.
